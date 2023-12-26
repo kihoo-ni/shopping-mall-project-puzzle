@@ -38,6 +38,8 @@
 ***
 # 구현 영상
 [![Video Label](http://img.youtube.com/vi/M-JDsZ3qguE/0.jpg)](https://youtu.be/M-JDsZ3qguE)
+
+
 유튜브에 일부공개로 게시함(사진누르면 이동)
 
 ***
