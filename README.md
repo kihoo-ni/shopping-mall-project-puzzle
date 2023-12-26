@@ -37,5 +37,6 @@
 * 구매자기준
 ***
 # 구현 영상
-(https://youtu.be/M-JDsZ3qguE)
+[![Video Label](http://img.youtube.com/vi/M-JDsZ3qguE/0.jpg)](https://youtu.be/M-JDsZ3qguE)
+
 ***
