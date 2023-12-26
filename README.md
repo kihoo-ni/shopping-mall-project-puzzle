@@ -37,5 +37,5 @@
 * 구매자기준
 ***
 # 구현 영상
-
+(https://youtu.be/M-JDsZ3qguE)
 ***
