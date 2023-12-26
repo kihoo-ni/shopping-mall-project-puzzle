@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* 12/06 css -> welcome, cart, viewed_goods jsp파일 수정 */
+
+.left-menu-wraper {
+  float: left;
+  height: 100%;
+  border-right: 1px solid lightgray;
+  width: 100%;
+}
+
+.left-menu-wraper .menu {
+  margin: 0;
+}
+
+.left-menu-wraper .tablist .menu-icon {
+  padding: 10px;
+}
+
+.left-menu-wraper .tablist .menu-icon .productMenu {
+  margin-left: 10px;
+}
+
+.left-menu-wraper .tablist .menu-info ul {
+  width: 220px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 10px;
+}
+
+.left-menu-wraper .tablist .menu-info li {
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.left-menu-wraper .tablist .menu-info li a {
+	color: rgb(99, 92, 92);
+	padding-right: 4px;
+    padding-left: 4px;
+}
+
+.left-menu-wraper .tablist .menu-info li:hover a {
+    border-bottom: 1px solid gray;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: darkgray;
+    transition: 0.3s;
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.left-menu-wraper {
+	float: left;
+	height: 100%;
+	border-right: 1px solid lightgray;
+	width: 100%;
+}
+
+.left-menu-wraper .left-menu {
+	margin: 0;
+	min-height: 600px;
+}
+
+.left-menu-wraper .left-menu .left-menu-box {
+	padding: 10px;
+}
+
+.left-menu .left-menu-box .left-menu-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.left-menu .left-menu-box .menu-ul {
+	padding: 0 45px;
+    text-align: center;
+}
+
+.left-menu .left-menu-box .menu-li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.left-menu .left-menu-box .menu-li:first-of-type {
+	padding-top: 10px;	
+}
+
+.left-menu-box .menu-li a:hover {
+	padding: 0 2px 3px 2px;
+	border-bottom: 2px solid darkgray;
+	transition: 0.3s;
+}
+
+.left-menu-box .menu-li a.active {
+	padding: 0 2px 3px 2px;
+	border-bottom: 2px solid darkgray;
+}

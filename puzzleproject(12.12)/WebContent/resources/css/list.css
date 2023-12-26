@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body, html {
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.list-row {
+	display: flex;
+	margin: 1%;
+}
+
+.text-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main {
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+}
+
+.main-form {
+	width: 90%;
+	padding: 2%;
+	text-align: center
+}
+
+.main .w10 {
+	width: 10%;
+}
+
+.main .w30 {
+	width: 30%;
+}
+
+.main .w25 {
+	width: 25%;
+}
+
+.main .w20 {
+	width: 20%;
+}
+
+.line {
+	border-bottom: 1px solid gray;
+	margin: 2px;
+}
+
+.serch {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 1.5%;
+	padding-right: 2%;
+}
+
+.submit_css {
+	width: 45px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+input[type=text] {
+	width: 200px;
+	height: 28px;
+	border: 2px solid;
+}
+
+.line-b{
+	border-bottom: 3px solid gray;
+    width: 100%;
+}

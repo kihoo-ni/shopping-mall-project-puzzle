@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>puzzleproject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+	<servlet>
+		<servlet-name>membercontroller</servlet-name>
+		<servlet-class>controller.membercontroller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>membercontroller</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sellercontroller</servlet-name>
+		<servlet-class>controller.sellercontroller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sellercontroller</servlet-name>
+		<url-pattern>*.product</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>productsearchcontroller</servlet-name>
+		<servlet-class>controller.productsearchcontroller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productsearchcontroller</servlet-name>
+		<url-pattern>*.search</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>BoardController</servlet-name>
+		<servlet-class>controller.BoardController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BoardController</servlet-name>
+		<url-pattern>*.list</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReplyController</servlet-name>
+		<servlet-class>controller.ReplyController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReplyController</servlet-name>
+		<url-pattern>*.reply</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CommentController</servlet-name>
+		<servlet-class>controller.CommentController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CommentController</servlet-name>
+		<url-pattern>*.comment</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>likedController</servlet-name>
+		<servlet-class>controller.likedController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>likedController</servlet-name>
+		<url-pattern>*.liked</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Guest_csController</servlet-name>
+		<servlet-class>controller.Guest_csController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Guest_csController</servlet-name>
+		<url-pattern>*.guest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Seller_csController</servlet-name>
+		<servlet-class>controller.Seller_csController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Seller_csController</servlet-name>
+		<url-pattern>*.seller</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+.container {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+
+.main {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	padding: 1%;
+}
+
+
+.top-title {
+	width: 100%;
+	margin: 2% 0;
+}
+
+.mid-title {
+	width: 100%;
+}
+
+.mid-title-top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mid-title .margin-right {
+	margin-right: 20px
+}
+
+.bot-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3%;
+	width: 100%;
+
+}
+
+.bot-content .bot-content-padding {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.side {
+	width: 87.5%;
+	display:flex;
+    justify-content: flex-end;
+}
+
+.right {
+	display: flex;
+	justify-content: center;
+}
+
+.contntPhoto {
+	width: 70%;
+	height: 100%;
+}
+
+.line {
+	border-bottom: 1px solid gray;
+	margin-top: 2%;
+	width: 100%;
+}
+
+.line2{
+	border-bottom: 0.8px solid lightgray;
+	margin-top: 2%;
+	width: 100%;
+}
+
+.submit_css{
+	width: 60px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: -7%;
+}
+
+.submit_css_up{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+	
+}
+
+/* input[type=text] {
+	width: 100%;
+    height: 40px;
+    font-size: 1em;
+    margin: 1% 0;
+    border: 2px solid;
+} */
+
+.area{
+	font-size: 1em;
+	border: 2px solid;
+	resize: none;
+	width: 82.5%
+}
+
+textarea.comment-output {
+    height: auto; /* 자동으로 늘어나도록 설정 */
+    max-height: 500px; /* 최대 높이를 설정하거나 제거 */
+  /*   overflow-y: auto; 세로 스크롤이 필요한 경우 auto로 설정 */
+    
+}
+
+.area_flex{
+	display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.writeInput{
+    width: 70vw;
+    border:none;
+    padding-top: 1%;
+    outline: none;
+    margin-bottom: 1%;
+}
+.flex-end{
+	display: flex;
+    justify-content: space-around
+}
+
+
+.reply_cs{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.comment_cs{
+	display: flex;
+	flex-direction: row-reverse;
+    align-items: center;
+	
+}
+
+.liked_main{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 3% 0;
+}
+
+.like{
+	width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+.input.comment-output {
+    height: auto;
+    max-height: 500px;
+ /*    overflow-y: auto; */
+}
+
+
+
+.icon1{
+    display: flex;
+    margin-top: 1%;
+}

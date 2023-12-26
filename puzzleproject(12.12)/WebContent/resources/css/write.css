@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main {
+	display: flex;
+	width: 90%;
+	height: 100%;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.margin-right {
+	width: 90%;
+}
+
+input[type=text] {
+	width: 506px;
+	height: 35px;
+	font-size: 1em;
+	margin: 2% 0;
+	border: 2px solid;
+	padding: 1%;
+}
+
+.area {
+	resize: none;
+	border: 2px solid;
+	margin: 2% 0;
+	padding: 1%;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 3%
+}
+
+.submit_css {
+	width: 45px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.btn_flex{
+	display: flex;
+    margin: 3%;
+    justify-content: center;
+	
+}
+
+.cancel_btn{
+	margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
