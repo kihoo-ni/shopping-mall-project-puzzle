@@ -28,6 +28,11 @@
 
 * **tool**: eclipse, draw.io
 ***  
+# 서비스 흐름
+![image](https://github.com/kihoo-ni/shopping-mall-project-puzzle/assets/140569678/b275d120-076e-4471-a272-f914d13d7805)
+* 판매자기준
+![image](https://github.com/kihoo-ni/shopping-mall-project-puzzle/assets/140569678/67299ee6-aaa7-41a0-8cd7-79826276766e)
+* 구매자기준
 # 제작 기간 
 23년 10월 16일~23년 12월 18일
 ***
